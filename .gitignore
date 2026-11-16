@@ -1,0 +1,6 @@
+.venv/
+dados/
+resultados_*/
+__pycache__/
+wheels/
+*.log

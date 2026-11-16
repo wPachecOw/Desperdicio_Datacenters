@@ -1,0 +1,40 @@
+{
+  "fracao_amostra": 0.003,
+  "seed": 42,
+  "chunksize": 100000,
+  "janela": "1h",
+  "pesos": {
+    "gpu": 0.6,
+    "cpu": 0.2,
+    "memoria": 0.2
+  },
+  "limiares_classes": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "gpu_ociosa_limiar": 10.0,
+  "cpu_baixa_limiar": 20.0,
+  "razao_solicitado_utilizado": 4.0,
+  "split": "temporal",
+  "proporcoes": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "selecao": "nenhuma",
+  "k_best": 10,
+  "pca_variancia": 0.95,
+  "correlacao_limiar": 0.95,
+  "iqr_fator": 1.5,
+  "z_limiar": 3.0,
+  "percentis_outliers": [
+    0.01,
+    0.99
+  ],
+  "pico_horas": [
+    9,
+    18
+  ],
+  "treinar_baseline": true
+}

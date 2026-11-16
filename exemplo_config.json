@@ -1,0 +1,9 @@
+{
+  "fracao_amostra": 0.003,
+  "janela": "1h",
+  "pesos": {"gpu": 0.6, "cpu": 0.2, "memoria": 0.2},
+  "limiares_classes": [0.25, 0.5, 0.75],
+  "proporcoes": [0.7, 0.15, 0.15],
+  "split": "temporal",
+  "selecao": "nenhuma"
+}
